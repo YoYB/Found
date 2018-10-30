@@ -1,0 +1,445 @@
+.timerHide{
+    width: 100%;
+    height: 100%;
+    background-color: #f55040;
+    overflow: hidden;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.timerHide>img{
+    margin: 120px auto 0;
+    display: block;
+}
+.timerHide .timer-text{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -336px;
+    text-align: center;
+}
+/*头部*/
+header{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: url("../imgs/bg_line.png") repeat-x;
+    box-shadow:0 1px 4px rgba(255,255,255,.7);
+}
+#navbar{
+    width: 70%;
+    min-width:1000px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+#logo{
+    float: left;
+    margin-top: 3px;
+}
+#navList{
+    width: 85%;
+    float: right;
+}
+#navList a{
+    color:#aeabb4;
+    float: left;
+    font-weight: bold;
+    padding:19px 15px;
+    position: relative;
+    overflow: hidden;
+}
+#navList .current{
+    color:#fff;
+}
+.doted,#navList .current .doted{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.doted{
+    top: 19px;
+    left: -4px;
+    transition: all .4s ease-in;
+}
+#navList .current .doted{
+    left: 50%;
+    margin-left: -2px;
+    top: 40px;
+}
+
+#container{
+    width: 100%;
+}
+#container .section:nth-child(1),
+#container .section:nth-child(3){
+    background: url("../imgs/bg_line.png") repeat-x;
+    background-size: auto 100%;
+}
+.section{
+    position: relative;
+}
+/*home*/
+#home{
+    color:#fff;
+    text-align: center;
+}
+.home-title{
+    font-size: 44px;
+    margin-top: 40px;
+    line-height: 48px;
+}
+.home-enTitle{
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-motto .yhleft{
+    margin-bottom: 30px;
+}
+.home-motto .motto{
+    font-size: 48px;
+    line-height: 72px;
+}
+.home-motto .yhright{
+    margin-bottom: -20px;
+}
+.home-indro{
+    font-size: 20px;
+    line-height:30px;
+    margin-top: 10px;
+}
+#toNext{
+    width: 58px;
+    height: 58px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+#toNext img{
+    position: absolute;
+    top: -58px;
+    left: 0;
+}
+#toNext:hover img{
+    transition: top .3s ease-in;
+    top:0;
+}
+
+/*概述*/
+#outList{
+    position: absolute;
+    top: 100px;
+    overflow:hidden;
+}
+/*第一部分*/
+#outline,#ourHope,#study{
+    text-align: center;
+    float: left;
+}
+.out-title{
+    font-size: 54px;
+    color: #19395f;
+    font-weight: bold;
+}
+.out-indro .yhleft{
+    margin-bottom: 72px;
+}
+.out-indro span{
+    width: 40%;
+    min-width: 500px;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 18px;
+    color:#6b6a6f;
+    line-height:30px;
+}
+.out-appImgs img{
+    margin: 40px 16px 0;
+}
+/*我们的愿景*/
+.ourList{
+    width: 40%;
+    margin: 40px auto 0;
+}
+.ourList li{
+    overflow:hidden;
+    margin: 40px 0;
+    text-align: left;
+}
+.ourList img{
+    float: left;
+}
+.ourList .ourItem{
+    width: 70%;
+    float: left;
+    margin:20px 0 0 50px;
+    color:#636363;
+    font-size: 24px;
+}
+.ourItem p{
+    font-size: 18px;
+}
+/*学习*/
+.stu-motto{
+    margin-top: 50px;
+}
+.stu-motto .yhleft{
+    margin-bottom: 30px;
+}
+.stu-motto .motto{
+    font-size: 36px;
+    color:#221236;
+    margin: 0 20px;
+}
+.stu-motto .yhright{
+    margin-bottom: -30px;
+}
+#study p{
+    width: 45%;
+    margin: 50px auto 0;
+    font-size: 18px;
+    text-align: left;
+    color:#6b6a6f;
+    line-height: 30px;
+    text-indent:2em;
+}
+#study > img{
+    margin-top: 50px;
+}
+#out-left,#out-right{
+    position:absolute;
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+}
+#out-left{
+    left: 40px;
+}
+#out-right{
+    right: 40px;
+}
+#out-left>img,#out-right>img{
+    position: absolute;
+    top: 0;
+}
+#out-left>img{
+    left: 0;
+}
+#out-right>img{
+    right: 0;
+}
+#out-left:hover img{
+    transition: left .2s ease-in;
+    left:-58px;
+}
+#out-right:hover img{
+    transition: right .2s ease-in;
+    right:-58px;
+}
+
+/*小鸟掌云*/
+#value{
+    width: 65%;
+    min-width:700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.val-title{
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+.val-top,.val-bottom{
+    overflow: hidden;
+    height: 20px;
+}
+.valImg .light{
+    opacity: 0;
+}
+.val-left{
+    float: left;
+    position: relative;
+}
+.val-left>img,.val-right>img{
+    position: absolute;
+}
+.val-left>img{
+    left: 0;
+}
+.val-right>img{
+    right: 0;
+}
+.val-right{
+    float: right;
+    position: relative;
+}
+.val-content{
+    width: 90%;
+    margin: 0 auto;
+}
+#valList{
+    overflow: hidden;
+}
+#valList .valItem:nth-child(1),#valList .valItem:nth-child(2){
+    margin-top: 0;
+}
+.valItem{
+    float: left;
+    font-size: 18px;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.valItem .valNum{
+    width: 74px;
+    padding:28px 0;
+    float: left;
+    line-height: 18px;
+    border:1px solid #909090;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.valItem p{
+    width: 64%;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+
+/*一人一物一故事*/
+#birdCloud{
+    width: 100%;
+    text-align: center;
+}
+.bc-title{
+    font-size: 54px;
+    color: #19395f;
+}
+.bc-content{
+    width: 55%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bcList{
+    position: absolute;
+}
+.bcItem{
+    background: url("../imgs/xuxian_bg.png");
+    float: left;
+}
+.bcItem p{
+    text-align: left;
+    text-indent: 2em;
+    line-height: 36px;
+    color:#535355;
+}
+.bcItem .bc-p{
+    text-indent: 0;
+    margin-top: 15px;
+}
+
+.bcbox{
+    width: 210px;
+    height: 8px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+#bcleft,#bcright{
+    position: relative;
+    width: 80px;
+    height: 8px;
+    background-color: #acacac;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#bcleft{
+    float: left;
+    margin-left: 4px;
+}
+#bcright{
+    float: right;
+    margin-right: 4px;
+}
+.bcNow{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: #f55040;
+}
+/*App下载*/
+#appDownload{
+    background: url("../imgs/bg_contact.jpg") no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.app{
+    overflow: hidden;
+    width: 550px;
+    margin: -125px auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 0;
+}
+.app>img,.download{
+    float: left;
+}
+.download{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.iphone,
+.android{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.download span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 0;
+    border-right: 1px solid #fff;
+    float: left;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+.iphone span{
+    background: url("../imgs/icon_ios.png") no-repeat center left;
+    background-size: auto;
+}
+.android span{
+    background: url("../imgs/icon_android.png") no-repeat center left;
+    background-size: auto;
+}
+.download a{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    line-height: 40px;
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+.download a:hover{
+    text-decoration: underline;
+}

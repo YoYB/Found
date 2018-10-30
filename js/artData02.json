@@ -1,0 +1,58 @@
+{
+  "success":"成功",
+  "data":{
+    "pageStart":0,
+    "pageSize":6,
+    "count":6,
+    "list":[{
+      "creatAt":"2017-11-14",
+      "creatByFullName":"管理员",
+      "describe":"村上隆(Murakami Takashi)，是上世纪60年代以后出生的日本艺术家中极具影响力的一位，在日本不仅是一位受到广泛的喜爱的艺术家，也是日本新一代年轻人的偶像。",
+      "title":"村上隆用“幼稚力”征服世界",
+      "sysId":1,
+      "coverImg":"imgs/listImg/list_imgArt11.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-13",
+      "creatByFullName":"管理员",
+      "describe":"有这么一位英国插画大师，他所绘制的时尚美丽插画，频繁出现在时尚杂志和广告海报上，他把时装之美传递给了更多的人，同时也在幕后推动了欧洲时装界的复兴。他，就是眼前这位温柔细腻的大叔——大卫·唐顿（David Downton）。",
+      "title":"大道至简",
+      "sysId":2,
+      "coverImg":"imgs/listImg/list_imgArt12.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-11",
+      "creatByFullName":"管理员",
+      "describe":"彼埃·科内利斯·蒙德里安（Piet Cornelies Mondrian），荷兰画家，风格派运动幕后艺术家和非具象绘画的创始者之一。",
+      "title":"蒙德里安的“格子王国”",
+      "sysId":3,
+      "coverImg":"imgs/listImg/list_imgArt13.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-17-10",
+      "creatByFullName":"管理员",
+      "describe":"草间弥生（Yayoi Kusama），出生于日本。在1956年移居美国纽约市，并开始展露她占有领导地位的前卫艺术创作，现居住在日本东京。",
+      "title":"小圆圈绘出大世界",
+      "sysId":4,
+      "coverImg":"imgs/listImg/list_imgArt14.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-09",
+      "creatByFullName":"管理员",
+      "describe":"Edvard Munch（爱德华·蒙克），挪威表现主义画家、版画复制匠，现代表现主义绘画的先驱。",
+      "title":"表现主义",
+      "sysId":5,
+      "coverImg":"imgs/listImg/list_imgArt15.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-12",
+      "creatByFullName":"管理员",
+      "describe":"詹姆斯·特瑞尔（James Turrell，1943年5月6日出生于美国洛杉矶）是一位以空间和光线为创作素材的当代艺术家。被认为是“南加州光与空间运动”的先驱与代表艺术家。",
+      "title":"光的奇迹",
+      "sysId":1,
+      "coverImg":"imgs/listImg/list_imgArt16.jpg",
+      "status":2
+    }
+    ]
+  }
+}

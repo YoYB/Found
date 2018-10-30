@@ -1,0 +1,202 @@
+/*标题格式*/
+.title{
+    font-size: 54px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+.entitle>span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.entitle>img{
+    margin-top: 30px;
+}
+
+/*文章列表页*/
+.artical{
+    width: 70%;
+    min-width: 1000px;
+    margin: 0 auto 120px;
+    text-align: center;
+    color:#19395f;
+}
+#art-main{
+    width: 100%;
+    position: relative;
+}
+.art-title{
+    text-align: left;
+    width: 100%;
+    font-size: 30px;
+    line-height: 60px;
+    position: relative;
+    background:url("../img/index/pen_line_long.png") no-repeat bottom left;
+    background-size: 100%;
+}
+
+.art-list,.art-drop{
+    overflow: hidden;
+}
+.artItem{
+    float: left;
+    width: 48%;
+    margin-top: 40px;
+    background-color:#fff;
+    text-align: left;
+    padding: 20px 20px;
+    border:1px solid #fff;
+    transition: transform .4s ease-in;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.artItem:hover{
+    border: 1px solid #fc877c;
+    transform: translate3d(0,-10px,0);
+}
+.artItem:nth-child(2n-1){
+    margin-right: 3%;
+}
+.art-img{
+    float: left;
+    width: 50%;
+}
+.art-img>img{
+    width: 100%;
+    display: block;
+}
+.art-mes{
+    float: left;
+    margin-left: 10px;
+    width: 40%;
+}
+.mes-title{
+    font-size: 20px;
+    color: #454548;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 26px;
+}
+.art-time{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6b6a6f;
+    padding-top: 2px;
+}
+.art-text{
+    color: #47464a;
+    padding-top: 8px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.look-more{
+    margin-top: 80px;
+}
+.scroll-look{
+    width: 58px;
+    height: 58px;
+    overflow: hidden;
+    position: relative;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.scroll-look>img{
+    position: absolute;
+    top: -58px;
+    left: 0;
+}
+.scroll-look:hover img{
+    transition:top .3s ease-in;
+    top: 0;
+}
+
+/*文章内容页*/
+.artText{
+    margin: 0 auto;
+}
+.art-bgimg{
+    width: 100%;
+    height: 500px;
+    margin: 40px 0;
+    overflow: hidden;
+}
+.art-bgimg>img{
+    width: 100%;
+}
+.art-info{
+    text-align: left;
+}
+.art-info>p{
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+.like_wrap{
+    width: 220px;
+    margin: 40px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.like-btn{
+    width: 73px;
+    height: 73px;
+    float: left;
+    overflow: hidden;
+    background: url("../img/index/article_iflike.png") no-repeat;
+    cursor: pointer;
+}
+/*.like{*/
+    /*width: 135px;*/
+    /*float: right;*/
+    /*margin-top: 20px;*/
+    /*font-size: 16px;*/
+    /*line-height: 35px;*/
+    /*color: #fff;*/
+    /*background: url("../img/index/article_iflike_nomberbg.png") no-repeat;*/
+/*}*/
+/*.like-btn:hover{*/
+    /*animation:1s linear 0s normal none 1 running su-pudding;*/
+/*}*/
+
+/*招聘信息*/
+#art-main .el{
+    font-size: 18px;
+    line-height: 40px;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: left;
+}
+.el .t1,.el .t2,.el .t3,.el .t4,.el .t5{
+    float: left;
+    display: block;
+}
+.el .t1{
+    position: relative;
+    padding-left: 0;
+    width: 30%;
+}
+.el .zw-name{
+    color: #19395f;
+}
+.el .t2{
+    width: 25%;
+    color: #666;
+}
+.el .t3,.el .t4,.el .t5{
+    text-align: center;
+    color: #999;
+    width: 15%;
+}
+.el .t4{
+    color:#ff6000;
+    font-size: 20px;
+}
+
+
+

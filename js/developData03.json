@@ -1,0 +1,18 @@
+{
+  "success":"成功",
+  "data":{
+    "pageStart":0,
+    "pageSize":6,
+    "count":1,
+    "list":[{
+      "creatAt":"2018-04-14",
+      "creatByFullName":"管理员",
+      "describe":"南京高校众多，在这些学校中，又有很多大学生不是南京本地人。那么，他们毕业后会选择留在南京发展吗？在他们眼里，南京这座城市究竟怎么样呢？",
+      "title":"毕业了你愿意留在南京吗？",
+      "sysId":2,
+      "coverImg":"imgs/listImg/list_imgDp17.jpg",
+      "status":2
+    }
+    ]
+  }
+}

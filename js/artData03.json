@@ -1,0 +1,42 @@
+{
+  "success":"成功",
+  "data":{
+    "pageStart":0,
+    "pageSize":6,
+    "count":4,
+    "list":[{
+      "creatAt":"2017-11-08",
+      "creatByFullName":"管理员",
+      "describe":"这位被《纽约时报》吐槽“美国最差劲的艺术家”，凭什么一幅画能卖到6.3亿？",
+      "title":"波普艺术",
+      "sysId":2,
+      "coverImg":"imgs/listImg/list_imgArt17.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-07",
+      "creatByFullName":"管理员",
+      "describe":"当我们去看潘玉良的照片，发现她的确是不怎么美的。潘玉良五官粗放、身材壮硕，眼神中似乎还带着几分呆板，若说没有玲珑秀丽的脸庞，也该有摄人心魄的娇媚吧？然而潘玉良也是没有的。老天爷非但没有给她一张精致的脸，还在她年幼时就夺走了双亲。",
+      "title":"潘玉良",
+      "sysId":3,
+      "coverImg":"imgs/listImg/list_imgArt18.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-06",
+      "creatByFullName":"管理员",
+      "describe":"在英国的考文垂博物馆，有一件镇馆之宝。它是英国画家约翰·柯里尔（John Collier）创作的油画《马背上的Godiva夫人》。许多人第一眼见到这幅画时，会觉得它直接触及裸体且色情，其实不然，这幅画背后，讲述的是一个真善美的故事。甚至可以认为是部分贵族善良的美德，与教会清规戒律的保守的一次碰撞。",
+      "title":"Godiva夫人",
+      "sysId":4,
+      "coverImg":"imgs/listImg/list_imgArt19.jpg",
+      "status":2
+    },{
+      "creatAt":"2017-11-05",
+      "creatByFullName":"管理员",
+      "describe":"由扎哈哈迪德事务所（ Zaha Hadid Architects）设计的阿卜杜拉国王石油研究中心（King Abdullah Petroleum Studies and Research Centre）于近日交付使用。该中心位于沙特阿拉伯首都利雅得（Riyadh），是一个独立的非营利性机构，旨在研究最有效地利用能源及能源与经济等问题。中心建筑面积7万平米，有五个相互连接的建筑群组成，包括能源知识中心、能源计算中心、会议中心、图书馆以及祈祷空间。",
+      "title":"石油研究中心",
+      "sysId":5,
+      "coverImg":"imgs/listImg/list_imgArt20.jpg",
+      "status":2
+    }
+    ]
+  }
+}

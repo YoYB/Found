@@ -1,0 +1,145 @@
+{
+  "success":"成功",
+  "data":{
+    "pageStart":0,
+    "pageSize":6,
+    "count":17,
+    "list":[{
+      "post":"PHP后台开发工程师",
+      "keyPoints":"3-4年经验 | 大专 | 招2人",
+      "location":"南京-鼓楼区",
+      "salary":"0.7-1万/月",
+      "date":"08-15",
+      "startus":2
+    },
+      {
+        "post":"急聘广告客户经理",
+        "keyPoints":"大专 | 招10人",
+        "location":"南京-鼓楼区",
+        "salary":"0.8-1万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"广告平面设计师",
+        "keyPoints":"3-4年经验 | 大专 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"5-8千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"记者/编辑",
+        "keyPoints":"1年经验 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"3-8千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"客户经理/业务经理",
+        "keyPoints":"无工作经验 | 大专 | 招3人",
+        "location":"南京-鼓楼区",
+        "salary":"1-1.5万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"小程序开发工程师",
+        "keyPoints":"1年经验 | 大专 | 招1人",
+        "location":"南京-鼓楼区",
+        "salary":"0.6-1万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"网红餐饮店长",
+        "keyPoints":"2年经验 | 中技 | 招1人",
+        "location":"南京-鼓楼区",
+        "salary":"0.5-1万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"视频拍摄剪辑",
+        "keyPoints":"1年经验 | 大专",
+        "location":"南京-鼓楼区",
+        "salary":"4.5-6千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"短视频大客户经理",
+        "keyPoints":"大专 | 招3人",
+        "location":"南京-鼓楼区",
+        "salary":"1-1.5万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"新媒体运营专员",
+        "keyPoints":"1年经验 | 大专 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"4-6千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"视频剪辑",
+        "keyPoints":"1年经验 | 大专 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"5-8千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"PHP开发工程师",
+        "keyPoints":"2年经验 | 大专 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"0.7-1.2万/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"总经理助理/CEO助理",
+        "keyPoints":"3-4年经验 | 本科 | 招1人",
+        "location":"南京-鼓楼区",
+        "salary":"10-15万/年",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"Web前端开发工程师",
+        "keyPoints":"2年经验 | 大专 | 招2人",
+        "location":"南京-鼓楼区",
+        "salary":"6.5-8.5千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"市场活动策划",
+        "keyPoints":"2年经验 | 本科 | 招3人",
+        "location":"南京-鼓楼区",
+        "salary":"4.5-6千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"餐厅运营经理（米来飨小锅米线）",
+        "keyPoints":"招1人",
+        "location":"南京-鼓楼区",
+        "salary":"6-8千/月",
+        "date":"08-15",
+        "startus":2
+      },
+      {
+        "post":"餐饮店长（若客餐饮待招）",
+        "keyPoints":"2年经验 | 大专 | 招1人",
+        "location":"南京-鼓楼区",
+        "salary":"0.6-1万/月",
+        "date":"08-15",
+        "startus":2
+      }
+    ]
+  }
+}
